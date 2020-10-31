@@ -1,15 +1,6 @@
 <?php
-
-# الملف من كتابة دليمي #
-# @YYYhYY تواصل تلي #
-# @KTK_K قنواتي #
-
-
-
-
-
 ob_start();
-define('API_KEY','توكنك اخي');
+define('API_KEY','1184640254:AAFLExP1jopqNAurdnoEt9csTrqUT0hAnAI');
 echo file_get_contents("https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']);
 function bot($method,$MROAN19s=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
